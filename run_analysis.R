@@ -12,6 +12,7 @@ if (!file.exists("UCI HAR Dataset")) {
 }
 
 #Adding this line to test GIT features
+#Creating a branch from master
 # Load activity labels + features
 activityLabels <- read.table("UCI HAR Dataset/activity_labels.txt")
 activityLabels[,2] <- as.character(activityLabels[,2])
